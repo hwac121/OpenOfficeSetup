@@ -65,7 +65,7 @@ echo "#===============================================#"
 echo "#     INSTALLING DESKTOP SHORTCUTS & ICONS      #"
 echo "#===============================================#"
 sleep 0.5
-sudo dpkg -i desktop-integration/openoffice4.1-debian-menus_4.1.6-9790_all.deb
+sudo dpkg -i desktop-integration/*.deb
 sleep 1
 clear
 splash
